@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+  }
+  
+  .blog-list {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .blog-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .blog-item:hover {
+    background-color: #e4e4e4;
+  }
+  
+  .blog-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .blog-details__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-details__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-details__status {
+    font-size: 14px;
+    color: #888;
+  }
+  

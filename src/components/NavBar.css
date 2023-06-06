@@ -1,0 +1,23 @@
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    flex: 1;
+  }
+  
+  .navbar-middle {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .navbar-icon {
+    margin: 0 10px;
+  }
+  
