@@ -1,5 +1,10 @@
 .container {
     display: flex;
+    
+    
+  }
+  .heading{
+    margin-left: 250px;
   }
   
   .blog-list {
@@ -7,6 +12,8 @@
     background-color: #f4f4f4;
     padding: 20px;
     border-right: 1px solid #ccc;
+    margin-right: 120px;
+
   }
   
   .blog-item {
@@ -23,6 +30,9 @@
   .blog-details {
     flex: 1;
     padding: 20px;
+    border-radius: 5px;
+    border-style:groove;
+    
   }
   
   .blog-details__title {
@@ -39,4 +49,22 @@
     font-size: 14px;
     color: #888;
   }
-  
+  .dangerbutton{
+    margin-left: 220px;
+    margin-top: 50px
+  }
+  .deleteButton{
+    margin-left: 50px;
+    width: 100px;
+
+  }
+  .editButton{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100px;
+  }
+  /* .outerring{
+    color: yellow;
+    border-radius: 5px;
+    border-color: rebeccapurple;
+  } */

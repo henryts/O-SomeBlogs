@@ -1,14 +1,27 @@
-
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #000;
+    background-color: #333;
     color: #fff;
     padding: 10px;
+    font-family: Arial, sans-serif;
   }
   
   .navbar-left {
     flex: 1;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .navbar-subtitle {
+    font-size: 14px;
+    color: #bbb;
   }
   
   .navbar-middle {
@@ -19,5 +32,21 @@
   
   .navbar-icon {
     margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .navbar-icon:hover {
+    background-color: #777;
+  }
+  
+  .navbar-icon:first-child {
+    margin-left: 0;
+  }
+  
+  .navbar-icon:last-child {
+    margin-right: 0;
   }
   
